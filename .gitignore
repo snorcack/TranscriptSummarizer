@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.cache/
+
+*.log
+server.out.log
+server.err.log
+
+.env
+.env.*
+app.config.local.json
+
+coverage/
+.vite/
+npm-debug.log*

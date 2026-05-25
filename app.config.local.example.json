@@ -1,0 +1,9 @@
+{
+  "provider": "gemini",
+  "providers": {
+    "gemini": {
+      "model": "gemini-2.5-flash",
+      "apiKeyEnv": "GEMINI_API_KEY"
+    }
+  }
+}

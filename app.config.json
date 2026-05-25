@@ -1,0 +1,21 @@
+{
+  "provider": "lmstudio",
+  "defaults": {
+    "speaker": "Sadhna Singh",
+    "detail": "medium",
+    "chunkMinutes": 10,
+    "maxChunkChars": 9000
+  },
+  "providers": {
+    "lmstudio": {
+      "baseUrl": "http://127.0.0.1:11435",
+      "model": "gemma4"
+    },
+    "gemini": {
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta",
+      "model": "gemini-2.5-flash",
+      "apiKeyEnv": "GEMINI_API_KEY",
+      "apiKey": ""
+    }
+  }
+}
